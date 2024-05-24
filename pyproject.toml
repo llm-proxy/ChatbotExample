@@ -2,13 +2,13 @@
 name = "openchatui"
 version = "0.1.0"
 description = ""
-authors = ["laxitshahi <shahilax@my.yorku.ca>"]
+authors = ["laxitshahi"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 streamlit = "^1.33.0"
-proxyllm = {path = "../llm-proxy"}
+proxyllm = "^0.2.1"
 
 
 [build-system]
